@@ -11,6 +11,9 @@ transforming columns with `apply`.
 | File | Topics covered |
 |------|----------------|
 | `pandas_basics.py` | DataFrame & Series creation, label-based indexing (`loc`), position-based indexing (`iloc`), boolean indexing, `fillna()`, `dropna()`, column-wise `apply()`, row-wise `apply()` |
+| `dataframe_init.py` | DataFrame initialisation: from dict, list-of-dicts, list-of-lists, NumPy array, empty shell; building a DataFrame by adding rows (`pd.concat`); building a DataFrame by adding columns |
+| `dataframe_columns.py` | Adding empty / default / derived columns, `insert()`, dropping columns, renaming columns, renaming all columns at once, clearing the column index name, reordering columns, checking column existence, inspecting and converting dtypes (`astype`) |
+| `dataframe_index.py` | Default `RangeIndex`, assigning a custom index, `set_index()`, `reset_index()`, naming / renaming the index, `sort_index()`, duplicate index detection and removal, row lookup with `.loc[]` |
 | `dataframe_overview.py` | Columns & index inspection (`.columns`, `.dtypes`, `.shape`), adding / dropping / renaming columns, `set_index()`, `reset_index()` |
 | `dataframe_stats.py` | `describe()`, `mean()`, `median()`, `std()`, `var()`, `min()`, `max()`, `sum()`, `count()`, `quantile()`, `agg()`, `value_counts()`, `nunique()`, `corr()` |
 | `dataframe_visualisations.py` | Built-in `df.plot()`: line, bar, barh, histogram, box, scatter, pie |
