@@ -1,4 +1,4 @@
-# Chapter 2 · Lists
+# Chapter 2 · Complex Types — Lists
 
 Everything you need to know about Python's most-used built-in collection type:
 creating, accessing, modifying, and iterating over lists, plus list comprehensions
