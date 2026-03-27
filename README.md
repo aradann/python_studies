@@ -23,9 +23,17 @@ python_studies/
 │   ├── README.md                ← chapter overview & file index
 │   └── lists.py                 ← Creating, modifying, iterating, comprehensions
 │
-└── arithmetic/                  ← Chapter 3: Basic Arithmetic Operations
+├── arithmetic/                  ← Chapter 3: Basic Arithmetic Operations
+│   ├── README.md                ← chapter overview & file index
+│   └── arithmetic.py            ← Operators, precedence, math module, real-world tasks
+│
+├── pandas/                      ← Chapter 4: Pandas Basics
+│   ├── README.md                ← chapter overview & file index
+│   └── pandas_basics.py         ← Indexing (loc/iloc), fillna, apply
+│
+└── seaborn/                     ← Chapter 5: Seaborn Basics
     ├── README.md                ← chapter overview & file index
-    └── arithmetic.py            ← Operators, precedence, math module, real-world tasks
+    └── seaborn_basics.py        ← Scatter, linear regression, heatmap, plot grid
 ```
 
 ---
@@ -68,6 +76,22 @@ python_studies/
 | File | Topics covered |
 |------|---------------|
 | `arithmetic.py` | All arithmetic operators, operator precedence (PEMDAS), augmented assignment, `abs()` `round()` `divmod()` `pow()`, `math` module (`sqrt`, `ceil`, `floor`, `log`, `log2`, `pi`, `e`), real-world problems |
+
+### Chapter 4 · Pandas Basics (`pandas/`)
+
+> 📄 See [`pandas/README.md`](pandas/README.md) for the full file index.
+
+| File | Topics covered |
+|------|---------------|
+| `pandas_basics.py` | DataFrame & Series creation, label-based indexing (`loc`), position-based indexing (`iloc`), boolean indexing, `fillna()`, `dropna()`, column-wise `apply()`, row-wise `apply()` |
+
+### Chapter 5 · Seaborn Basics (`seaborn/`)
+
+> 📄 See [`seaborn/README.md`](seaborn/README.md) for the full file index.
+
+| File | Topics covered |
+|------|---------------|
+| `seaborn_basics.py` | `scatterplot()`, `regplot()` / `lmplot()`, `heatmap()`, `pairplot()`, `FacetGrid` |
 
 ---
 
