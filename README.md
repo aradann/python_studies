@@ -19,9 +19,14 @@ python_studies/
 │   ├── basic_types.py                 ← Integers, floats, arithmetic, type conversion
 │   └── strings.py                     ← String creation, indexing, methods, formatting
 │
-├── lists/                             ← Chapter 2: Lists
-│   ├── README.md                      ← chapter overview & file index
-│   └── lists.py                       ← Creating, modifying, iterating, comprehensions
+├── complex_types/                     ← Chapter 2: Complex Types
+│   ├── README.md                      ← chapter overview & sub-chapter index
+│   ├── lists/                         ← Chapter 2.1: Lists
+│   │   ├── README.md                  ← sub-chapter overview & file index
+│   │   └── lists.py                   ← Creating, modifying, iterating, comprehensions
+│   └── dictionaries/                  ← Chapter 2.2: Dictionaries
+│       ├── README.md                  ← sub-chapter overview & file index
+│       └── dictionaries.py            ← Creating, accessing, iterating, comprehensions
 │
 ├── arithmetic/                        ← Chapter 3: Basic Arithmetic Operations
 │   ├── README.md                      ← chapter overview & file index
@@ -66,13 +71,25 @@ python_studies/
 | `basic_types.py` | `int`, `float`, arithmetic operators (`+` `-` `*` `/` `//` `%` `**`), `type()`, `isinstance()`, type conversion |
 | `strings.py` | String literals, escape characters, indexing, slicing, `.upper()` `.lower()` `.strip()` `.split()` `.join()` `.replace()` `.find()`, f-strings, membership testing |
 
-### Chapter 2 · Lists (`lists/`)
+### Chapter 2 · Complex Types (`complex_types/`)
 
-> 📄 See [`lists/README.md`](lists/README.md) for the full file index.
+> 📄 See [`complex_types/README.md`](complex_types/README.md) for the full sub-chapter index.
+
+#### Chapter 2.1 · Lists (`complex_types/lists/`)
+
+> 📄 See [`complex_types/lists/README.md`](complex_types/lists/README.md) for the full file index.
 
 | File | Topics covered |
 |------|---------------|
 | `lists.py` | List creation, indexing, slicing, `.append()` `.insert()` `.remove()` `.pop()` `.sort()` `.reverse()`, `len()` `min()` `max()` `sum()` `sorted()`, `for` loops with `enumerate()`, list comprehensions, nested lists |
+
+#### Chapter 2.2 · Dictionaries (`complex_types/dictionaries/`)
+
+> 📄 See [`complex_types/dictionaries/README.md`](complex_types/dictionaries/README.md) for the full file index.
+
+| File | Topics covered |
+|------|---------------|
+| `dictionaries.py` | Dictionary creation, key access, `.get()`, `.keys()` `.values()` `.items()`, adding/updating/deleting entries, `in` operator, `for` loops, dictionary comprehensions, nested dictionaries, `.setdefault()`, merging dicts |
 
 ### Chapter 3 · Basic Arithmetic Operations (`arithmetic/`)
 
