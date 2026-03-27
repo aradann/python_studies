@@ -11,29 +11,34 @@ practise before peeking at the answers.
 
 ```
 python_studies/
-├── README.md                    ← you are here
+├── README.md                          ← you are here
 │
-├── intro/                       ← Chapter 1: Introduction to Python
-│   ├── README.md                ← chapter overview & file index
-│   ├── hello_world.py           ← Printing output, the print() function
-│   ├── basic_types.py           ← Integers, floats, arithmetic, type conversion
-│   └── strings.py               ← String creation, indexing, methods, formatting
+├── intro/                             ← Chapter 1: Introduction to Python
+│   ├── README.md                      ← chapter overview & file index
+│   ├── hello_world.py                 ← Printing output, the print() function
+│   ├── basic_types.py                 ← Integers, floats, arithmetic, type conversion
+│   └── strings.py                     ← String creation, indexing, methods, formatting
 │
-├── lists/                       ← Chapter 2: Lists
-│   ├── README.md                ← chapter overview & file index
-│   └── lists.py                 ← Creating, modifying, iterating, comprehensions
+├── lists/                             ← Chapter 2: Lists
+│   ├── README.md                      ← chapter overview & file index
+│   └── lists.py                       ← Creating, modifying, iterating, comprehensions
 │
-├── arithmetic/                  ← Chapter 3: Basic Arithmetic Operations
-│   ├── README.md                ← chapter overview & file index
-│   └── arithmetic.py            ← Operators, precedence, math module, real-world tasks
+├── arithmetic/                        ← Chapter 3: Basic Arithmetic Operations
+│   ├── README.md                      ← chapter overview & file index
+│   └── arithmetic.py                  ← Operators, precedence, math module, real-world tasks
 │
-├── pandas/                      ← Chapter 4: Pandas Basics
-│   ├── README.md                ← chapter overview & file index
-│   └── pandas_basics.py         ← Indexing (loc/iloc), fillna, apply
+├── pandas/                            ← Chapter 4: Pandas Basics
+│   ├── README.md                      ← chapter overview & file index
+│   ├── pandas_basics.py               ← Indexing (loc/iloc), fillna, apply
+│   ├── dataframe_overview.py          ← Columns, index, set_index, reset_index
+│   ├── dataframe_stats.py             ← describe, mean, std, corr, value_counts
+│   ├── dataframe_visualisations.py    ← df.plot(): line, bar, hist, box, scatter, pie
+│   ├── dataframe_math.py              ← min, max, mean; idxmin/idxmax; axis=0/1
+│   └── dataframe_apply.py             ← apply axis, lambda vs named function
 │
-└── seaborn/                     ← Chapter 5: Seaborn Basics
-    ├── README.md                ← chapter overview & file index
-    └── seaborn_basics.py        ← Scatter, linear regression, heatmap, plot grid
+└── seaborn/                           ← Chapter 5: Seaborn Basics
+    ├── README.md                      ← chapter overview & file index
+    └── seaborn_basics.py              ← Scatter, linear regression, heatmap, plot grid
 ```
 
 ---
@@ -84,6 +89,11 @@ python_studies/
 | File | Topics covered |
 |------|---------------|
 | `pandas_basics.py` | DataFrame & Series creation, label-based indexing (`loc`), position-based indexing (`iloc`), boolean indexing, `fillna()`, `dropna()`, column-wise `apply()`, row-wise `apply()` |
+| `dataframe_overview.py` | Columns & index inspection, adding / dropping / renaming columns, `set_index()`, `reset_index()` |
+| `dataframe_stats.py` | `describe()`, `mean()`, `median()`, `std()`, `var()`, `min()`, `max()`, `quantile()`, `agg()`, `value_counts()`, `corr()` |
+| `dataframe_visualisations.py` | Built-in `df.plot()`: line, bar, barh, histogram, box, scatter, pie |
+| `dataframe_math.py` | `min()`, `max()`, `mean()` on Series and DataFrame; `idxmin()` / `idxmax()`; `axis=0` vs `axis=1` |
+| `dataframe_apply.py` | `apply()` axis usage; lambda vs named function; extra args; returning a `Series` |
 
 ### Chapter 5 · Seaborn Basics (`seaborn/`)
 
