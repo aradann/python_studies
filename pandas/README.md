@@ -11,6 +11,11 @@ transforming columns with `apply`.
 | File | Topics covered |
 |------|----------------|
 | `pandas_basics.py` | DataFrame & Series creation, label-based indexing (`loc`), position-based indexing (`iloc`), boolean indexing, `fillna()`, `dropna()`, column-wise `apply()`, row-wise `apply()` |
+| `dataframe_overview.py` | Columns & index inspection (`.columns`, `.dtypes`, `.shape`), adding / dropping / renaming columns, `set_index()`, `reset_index()` |
+| `dataframe_stats.py` | `describe()`, `mean()`, `median()`, `std()`, `var()`, `min()`, `max()`, `sum()`, `count()`, `quantile()`, `agg()`, `value_counts()`, `nunique()`, `corr()` |
+| `dataframe_visualisations.py` | Built-in `df.plot()`: line, bar, barh, histogram, box, scatter, pie |
+| `dataframe_math.py` | `min()`, `max()`, `mean()` on Series and DataFrame; `idxmin()` / `idxmax()`; column-wise vs row-wise (`axis=0` / `axis=1`) |
+| `dataframe_apply.py` | `apply()` on a Series; `axis=0` vs `axis=1`; lambda vs named function; extra arguments; returning a `Series` from `apply()` |
 
 ---
 
