@@ -1,2 +1,4 @@
 # Generated plot images (created when running seaborn_basics.py)
 *.png
+__pycache__/
+*.pyc
