@@ -12,6 +12,7 @@ condition changes with `while`.
 |------|----------------|
 | `for_loops.py` | `for` with `range()`, zero-based indexing, iterating over lists and strings, `range(start, stop, step)`, `enumerate()`, nested loops, `break`, `continue` |
 | `while_loops.py` | `while <condition>`, `while not <condition>`, `while True` with `break`, `continue`, Collatz sequence (challenge) |
+| `loops_dictionaries.py` | Iterating with `.keys()`, `.values()`, `.items()`; sorted iteration; nested dictionaries; dictionary comprehensions |
 
 ---
 

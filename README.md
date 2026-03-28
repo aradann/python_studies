@@ -48,7 +48,8 @@ python_studies/
 └── loops/                             ← Chapter 6: Loops
     ├── README.md                      ← chapter overview & file index
     ├── for_loops.py                   ← for loop, range(), zero-based indexing, enumerate(), break/continue
-    └── while_loops.py                 ← while condition, while not, while True, break/continue
+    ├── while_loops.py                 ← while condition, while not, while True, break/continue
+    └── loops_dictionaries.py          ← looping over dicts: .keys(), .values(), .items()
 ```
 
 ---
@@ -133,6 +134,7 @@ python_studies/
 |------|---------------|
 | `for_loops.py` | `for` with `range()`, zero-based indexing, iterating over lists and strings, `range(start, stop, step)`, `enumerate()`, nested loops, `break`, `continue` |
 | `while_loops.py` | `while <condition>`, `while not <condition>`, `while True` with `break`, `continue`, Collatz sequence (challenge) |
+| `loops_dictionaries.py` | Iterating with `.keys()`, `.values()`, `.items()`; sorted iteration; nested dictionaries; dictionary comprehensions |
 
 ---
 
