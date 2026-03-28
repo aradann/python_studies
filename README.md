@@ -41,9 +41,14 @@ python_studies/
 │   ├── dataframe_math.py              ← min, max, mean; idxmin/idxmax; axis=0/1
 │   └── dataframe_apply.py             ← apply axis, lambda vs named function
 │
-└── seaborn/                           ← Chapter 5: Seaborn Basics
+├── seaborn/                           ← Chapter 5: Seaborn Basics
+│   ├── README.md                      ← chapter overview & file index
+│   └── seaborn_basics.py              ← Scatter, linear regression, heatmap, plot grid
+│
+└── loops/                             ← Chapter 6: Loops
     ├── README.md                      ← chapter overview & file index
-    └── seaborn_basics.py              ← Scatter, linear regression, heatmap, plot grid
+    ├── for_loops.py                   ← for loop, range(), zero-based indexing, enumerate(), break/continue
+    └── while_loops.py                 ← while condition, while not, while True, break/continue
 ```
 
 ---
@@ -119,6 +124,15 @@ python_studies/
 | File | Topics covered |
 |------|---------------|
 | `seaborn_basics.py` | `scatterplot()`, `regplot()` / `lmplot()`, `heatmap()`, `pairplot()`, `FacetGrid` |
+
+### Chapter 6 · Loops (`loops/`)
+
+> 📄 See [`loops/README.md`](loops/README.md) for the full file index.
+
+| File | Topics covered |
+|------|---------------|
+| `for_loops.py` | `for` with `range()`, zero-based indexing, iterating over lists and strings, `range(start, stop, step)`, `enumerate()`, nested loops, `break`, `continue` |
+| `while_loops.py` | `while <condition>`, `while not <condition>`, `while True` with `break`, `continue`, Collatz sequence (challenge) |
 
 ---
 
