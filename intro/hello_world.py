@@ -19,10 +19,25 @@
 # ============================================================
 
 # Example 1: Printing a simple string
+a = "Hello"
+b = "world"
+
+together = a + b
+
+hellowordl_str = "Hello, World!"
+print(hellowordl_str)
 print("Hello, World!")
 
 # Example 2: Printing multiple items
 print("Hello", "Python", "Student!")
+
+print("Hello", "Python", "Student!", sep="")
+
+def print_impl(print_string1, print_string2, sep=" "):
+    joined_string = print_string1 + sep + print_string2
+    print(joined_string)
+
+print_impl(print_string1="PGAS sucks", print_string2="mee too")
 
 # Example 3: Printing with a custom separator
 print("one", "two", "three", sep=" - ")
@@ -36,6 +51,22 @@ print(42)
 
 # Example 6: Printing the result of an expression
 print(3 + 4)
+
+
+age_int : int = 99
+
+
+
+
+name = "Alice"
+age = 99
+score = 98.5
+
+str_prefix = "My age"
+num_str = "65"
+
+
+print(f"Name: {name}, Age: {age}, Score: {score}")
 
 
 # ============================================================
